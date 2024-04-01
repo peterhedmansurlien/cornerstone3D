@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cornerstonejs/cornerstone3D.git"
+    "url": "git+https://github.com/peterhedmansurlien/cornerstone3d-angular.git"
   },
   "sideEffects": false,
   "engines": {
@@ -173,10 +173,10 @@
   ],
   "resolutions": {},
   "bugs": {
-    "url": "https://github.com/cornerstonejs/cornerstone3D/issues"
+    "url": "https://github.com/peterhedmansurlien/cornerstone3d-angular/issues"
   },
-  "homepage": "https://github.com/cornerstonejs/cornerstone3D#readme",
-  "version": "1.0.1",
+  "homepage": "https://github.com/peterhedmansurlien/cornerstone3d-angular#readme",
+  "version": "1.0.2",
   "main": "babel.config.js",
   "keywords": [
     "cornerstone3d"
