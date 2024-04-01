@@ -1,5 +1,5 @@
-import { Enums, utilities, metaData } from '@cornerstonejs/core';
-import type { Types, RetrieveOptions } from '@cornerstonejs/core';
+import { Enums, utilities, metaData } from '@cornerstone3d-angular/core';
+import type { Types, RetrieveOptions } from '@cornerstone3d-angular/core';
 
 import external from '../../externalModules';
 import createImage from '../createImage';

@@ -1,5 +1,5 @@
 {
-    "name": "@cornerstonejs/adapters",
+    "name": "@cornerstone3d-angular/adapters",
     "version": "1.67.1",
     "description": "Adapters for Cornerstone3D to/from formats including DICOM SR and others",
     "src": "src/index.ts",
@@ -50,7 +50,7 @@
         "ndarray": "^1.0.19"
     },
     "devDependencies": {
-        "@cornerstonejs/core": "^1.67.1",
+        "@cornerstone3d-angular/core": "^1.67.1",
         "@cornerstonejs/streaming-image-volume-loader": "^1.67.1"
     }
 }

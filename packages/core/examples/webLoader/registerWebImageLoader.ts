@@ -1,4 +1,4 @@
-import * as cornerstone from '@cornerstonejs/core';
+import * as cornerstone from '@cornerstone3d-angular/core';
 const canvas = document.createElement('canvas');
 let lastImageIdDrawn;
 

@@ -1,4 +1,7 @@
-import { getShouldUseSharedArrayBuffer, Types } from '@cornerstonejs/core';
+import {
+  getShouldUseSharedArrayBuffer,
+  Types,
+} from '@cornerstone3d-angular/core';
 import { parseAffineMatrix } from './affineUtilities';
 
 /**

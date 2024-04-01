@@ -1,6 +1,6 @@
 import { vec3 } from 'gl-matrix';
-import { cache, utilities, Enums } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { cache, utilities, Enums } from '@cornerstone3d-angular/core';
+import type { Types } from '@cornerstone3d-angular/core';
 
 const { createUint8SharedArray, createFloat32SharedArray } = utilities;
 

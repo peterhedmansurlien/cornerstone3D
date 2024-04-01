@@ -1,4 +1,4 @@
-import { Types, Enums } from '@cornerstonejs/core';
+import { Types, Enums } from '@cornerstone3d-angular/core';
 
 const { ImageQualityStatus } = Enums;
 

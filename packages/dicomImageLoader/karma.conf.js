@@ -211,7 +211,7 @@ module.exports = function (config) {
           path: require.resolve('path-browserify'),
         },
         alias: {
-          '@cornerstonejs/core': path.resolve('packages/core/src/index'),
+          '@cornerstone3d-angular/core': path.resolve('packages/core/src/index'),
           '@cornerstonejs/tools': path.resolve('packages/tools/src/index'),
           '@cornerstonejs/streaming-image-volume-loader': path.resolve(
             'packages/streaming-image-volume-loader/src/index'

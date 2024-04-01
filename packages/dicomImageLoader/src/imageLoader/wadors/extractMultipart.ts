@@ -1,4 +1,4 @@
-import { Enums } from '@cornerstonejs/core';
+import { Enums } from '@cornerstone3d-angular/core';
 import findIndexOfString from './findIndexOfString';
 
 const { ImageQualityStatus } = Enums;

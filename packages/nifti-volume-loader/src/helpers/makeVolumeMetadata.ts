@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from '@cornerstone3d-angular/core';
 import { vec3 } from 'gl-matrix';
 
 // everything here is LPS

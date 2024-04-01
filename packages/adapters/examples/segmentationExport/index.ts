@@ -6,7 +6,7 @@ import {
     volumeLoader,
     cache,
     metaData
-} from "@cornerstonejs/core";
+} from "@cornerstone3d-angular/core";
 import {
     initDemo,
     setTitleAndDescription,

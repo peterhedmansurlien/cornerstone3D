@@ -4,7 +4,7 @@ import {
   Enums,
   utilities,
   setUseCPURendering,
-} from '@cornerstonejs/core';
+} from '@cornerstone3d-angular/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

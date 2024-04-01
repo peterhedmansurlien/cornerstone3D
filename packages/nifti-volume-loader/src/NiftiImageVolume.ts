@@ -1,5 +1,5 @@
-import { ImageVolume, cache } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { ImageVolume, cache } from '@cornerstone3d-angular/core';
+import type { Types } from '@cornerstone3d-angular/core';
 
 type LoadStatus = {
   loaded: boolean;

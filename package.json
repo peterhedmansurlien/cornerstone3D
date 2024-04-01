@@ -56,13 +56,13 @@
     "@babel/plugin-external-helpers": "^7.18.6",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-transform-class-static-block": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.21.4",
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.21.5",
     "@babel/runtime": "7.21.5",
     "@babel/runtime-corejs3": "^7.15.4",
-    "@babel/plugin-transform-class-static-block": "^7.16.0",
     "@cornerstonejs/calculate-suv": "1.0.3",
     "@microsoft/api-extractor": "7.38.0",
     "@rollup/plugin-babel": "^6.0.3",
@@ -176,11 +176,16 @@
     "url": "https://github.com/peterhedmansurlien/cornerstone3d-angular/issues"
   },
   "homepage": "https://github.com/peterhedmansurlien/cornerstone3d-angular#readme",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "babel.config.js",
   "keywords": [
     "cornerstone3d"
   ],
   "author": "Peter Hedman Surlien",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@cornerstone3d-angular/core": "^1.67.1",
+    "@cornerstone3d-angular/dicom-image-loader": "^1.67.1",
+    "@cornerstone3d-angular/tools": "^1.67.1"
+  }
 }

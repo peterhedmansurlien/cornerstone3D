@@ -1,4 +1,4 @@
-import * as cornerstoneImport from '@cornerstonejs/core';
+import * as cornerstoneImport from '@cornerstone3d-angular/core';
 import { loadImage } from './loadImage';
 import { metaDataProvider } from './metaData/index';
 

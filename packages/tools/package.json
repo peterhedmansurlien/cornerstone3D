@@ -1,5 +1,5 @@
 {
-  "name": "@cornerstonejs/tools",
+  "name": "@cornerstone3d-angular/tools",
   "version": "1.67.1",
   "description": "Cornerstone3D Tools",
   "main": "src/index.ts",
