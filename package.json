@@ -1,11 +1,14 @@
 {
-  "name": "root",
+  "name": "cornerstone3d-angular",
   "description": "Cornerstone.js Monorepo Root",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
-  "repository": "https://github.com/cornerstonejs/cornerstone3D",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornerstonejs/cornerstone3D.git"
+  },
   "sideEffects": false,
   "engines": {
     "node": ">=12",
@@ -168,6 +171,16 @@
     "not ie < 11",
     "not op_mini all"
   ],
-  "dependencies": {},
-  "resolutions": {}
+  "resolutions": {},
+  "bugs": {
+    "url": "https://github.com/cornerstonejs/cornerstone3D/issues"
+  },
+  "homepage": "https://github.com/cornerstonejs/cornerstone3D#readme",
+  "version": "1.0.1",
+  "main": "babel.config.js",
+  "keywords": [
+    "cornerstone3d"
+  ],
+  "author": "Peter Hedman Surlien",
+  "license": "ISC"
 }
