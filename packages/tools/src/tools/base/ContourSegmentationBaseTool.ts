@@ -1,4 +1,4 @@
-import { utilities } from '@cornerstonejs/core';
+import { utilities } from 'cornerstone3d-angular-core';
 import type {
   Annotation,
   EventTypes,

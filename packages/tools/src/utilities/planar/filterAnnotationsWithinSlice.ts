@@ -1,6 +1,6 @@
 import { vec3 } from 'gl-matrix';
-import { CONSTANTS, metaData } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { CONSTANTS, metaData } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { Annotations, Annotation } from '../../types';
 
 const { EPSILON } = CONSTANTS;

@@ -1,10 +1,13 @@
-import { getEnabledElements, utilities as csUtils } from '@cornerstonejs/core';
+import {
+  getEnabledElements,
+  utilities as csUtils,
+} from 'cornerstone3d-angular-core';
 import { Annotation } from '../types';
 
 import {
   IStackViewport,
   IVolumeViewport,
-} from '@cornerstonejs/core/dist/types/types';
+} from 'cornerstone3d-angular-core/dist/types/types';
 
 const { isEqual } = csUtils;
 

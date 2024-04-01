@@ -1,5 +1,5 @@
-import { utilities } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { utilities } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import * as SegmentationState from '../../../stateManagement/segmentation/segmentationState';
 import { triggerSegmentationRepresentationModified } from '../triggerSegmentationEvents';
 

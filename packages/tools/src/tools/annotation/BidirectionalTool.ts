@@ -1,6 +1,9 @@
 import { vec2, vec3 } from 'gl-matrix';
-import { getEnabledElement, utilities as csUtils } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import {
+  getEnabledElement,
+  utilities as csUtils,
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 import {
   getCalibratedLengthUnits,

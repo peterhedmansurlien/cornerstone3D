@@ -1,4 +1,4 @@
-import type { Types } from '@cornerstone3d-angular/core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Generates an affine matrix from the provided origin, orientation and spacing.

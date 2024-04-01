@@ -3,8 +3,8 @@ import {
   getEnabledElement,
   utilities as csUtils,
   VolumeViewport,
-} from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 import { removeAnnotation } from '../../stateManagement/annotation/annotationState';
 import { drawHandles as drawHandlesSvg } from '../../drawingSvg';

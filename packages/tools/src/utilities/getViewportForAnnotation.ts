@@ -4,7 +4,7 @@ import getViewportsForAnnotation from './getViewportsForAnnotation';
 import {
   IStackViewport,
   IVolumeViewport,
-} from '@cornerstonejs/core/dist/types/types';
+} from 'cornerstone3d-angular-core/dist/types/types';
 
 /**
  * Finds a matching viewport in terms of the orientation of the annotation data

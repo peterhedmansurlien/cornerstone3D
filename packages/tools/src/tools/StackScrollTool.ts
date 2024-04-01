@@ -1,4 +1,7 @@
-import { getEnabledElementByIds, VolumeViewport } from '@cornerstonejs/core';
+import {
+  getEnabledElementByIds,
+  VolumeViewport,
+} from 'cornerstone3d-angular-core';
 import { BaseTool } from './base';
 import { scroll } from '../utilities';
 import { PublicToolProps, ToolProps, EventTypes } from '../types';

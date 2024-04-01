@@ -3,7 +3,7 @@ import {
   cache,
   eventTarget,
   getRenderingEngines,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { Events, SegmentationRepresentations } from '../../enums';
 import addSegmentationRepresentations from './addSegmentationRepresentations';
 import {

@@ -5,7 +5,7 @@ import {
   volumeLoader,
   setVolumesForViewports,
   eventTarget,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 import {
   cornerstoneNiftiImageVolumeLoader,

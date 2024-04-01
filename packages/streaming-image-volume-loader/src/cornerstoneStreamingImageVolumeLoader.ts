@@ -3,8 +3,8 @@ import {
   imageLoader,
   imageLoadPoolManager,
   utilities as csUtils,
-} from '@cornerstone3d-angular/core';
-import type { Types } from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import StreamingImageVolume from './StreamingImageVolume';
 
 interface IVolumeLoader {

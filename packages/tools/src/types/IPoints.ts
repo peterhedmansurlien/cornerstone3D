@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Points in page, client, canvas and world

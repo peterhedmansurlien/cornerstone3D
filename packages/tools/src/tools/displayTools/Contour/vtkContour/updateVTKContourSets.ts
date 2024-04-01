@@ -1,4 +1,4 @@
-import { cache, Types } from '@cornerstonejs/core';
+import { cache, Types } from 'cornerstone3d-angular-core';
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 
 import {

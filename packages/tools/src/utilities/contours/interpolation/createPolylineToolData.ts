@@ -1,4 +1,4 @@
-import { Types, utilities as csUtils } from '@cornerstonejs/core';
+import { Types, utilities as csUtils } from 'cornerstone3d-angular-core';
 import { InterpolationROIAnnotation } from '../../../types/ToolSpecificAnnotationTypes';
 
 /**

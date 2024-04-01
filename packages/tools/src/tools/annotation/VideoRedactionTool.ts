@@ -6,8 +6,8 @@ import {
   eventTarget,
   utilities as csUtils,
   cache,
-} from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { AnnotationTool } from '../base';
 
 import throttle from '../../utilities/throttle';

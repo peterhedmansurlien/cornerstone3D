@@ -7,7 +7,7 @@ import {
   StackViewport,
   Types,
   VolumeViewport,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
 import Representations from '../../../enums/SegmentationRepresentations';
 import * as SegmentationState from '../../../stateManagement/segmentation/segmentationState';

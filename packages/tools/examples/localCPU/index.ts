@@ -1,4 +1,9 @@
-import { RenderingEngine, Types, Enums, metaData } from '@cornerstonejs/core';
+import {
+  RenderingEngine,
+  Types,
+  Enums,
+  metaData,
+} from 'cornerstone3d-angular-core';
 import cornerstoneDICOMImageLoader from '@cornerstonejs/dicom-image-loader';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 import htmlSetup from '../local/htmlSetup';
@@ -7,7 +12,7 @@ import uids from '../local/uids';
 import initProviders from '../../../../utils/demo/helpers/initProviders';
 import initCornerstoneDICOMImageLoader from '../../../../utils/demo/helpers/initCornerstoneDICOMImageLoader';
 import initVolumeLoader from './../../../../utils/demo/helpers/initVolumeLoader';
-import { setUseCPURendering } from '@cornerstonejs/core';
+import { setUseCPURendering } from 'cornerstone3d-angular-core';
 
 const {
   PanTool,

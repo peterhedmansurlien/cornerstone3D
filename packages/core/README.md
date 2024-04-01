@@ -1,4 +1,4 @@
-# @cornerstone3d-angular/core
+# cornerstone3d-angular-core
 
 Cornerstone is a set of JavaScript libraries that can be used to build web-based medical imaging applications. It provides a framework to build radiology applications such as the [OHIF Viewer](https://ohif.org/).
 

@@ -1,4 +1,9 @@
-import { RenderingEngine, Types, Enums, metaData } from '@cornerstonejs/core';
+import {
+  RenderingEngine,
+  Types,
+  Enums,
+  metaData,
+} from 'cornerstone3d-angular-core';
 import cornerstoneDICOMImageLoader from '@cornerstonejs/dicom-image-loader';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 import htmlSetup from './htmlSetup';

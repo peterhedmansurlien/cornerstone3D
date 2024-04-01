@@ -1,5 +1,5 @@
-import { getEnabledElement } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { getEnabledElement } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Remove the contour representation from the viewport's HTML Element.

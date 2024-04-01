@@ -1,16 +1,21 @@
 {
-  "name": "@cornerstone3d-angular/core",
-  "version": "1.67.1",
-  "description": "",
+  "name": "cornerstone3d-angular-core",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Cornerstone is a set of JavaScript libraries that can be used to build web-based medical imaging applications. It provides a framework to build radiology applications such as the [OHIF Viewer](https://ohif.org/).",
   "main": "src/index.ts",
   "types": "dist/types/index.d.ts",
   "module": "dist/esm/index.js",
-  "repository": "https://github.com/cornerstonejs/cornerstone3D",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterhedmansurlien/cornerstone3d-angular.git"
+  },
   "files": [
     "dist/",
     "src/"
   ],
   "directories": {
+    "example": "examples",
     "test": "test"
   },
   "sideEffects": false,
@@ -37,14 +42,19 @@
     "lodash.clonedeep": "4.5.0"
   },
   "contributors": [
-    {
-      "name": "Cornerstone.js Contributors",
-      "url": "https://github.com/orgs/cornerstonejs/people"
-    }
+    "Cornerstone.js Contributors (https://github.com/orgs/cornerstonejs/people)"
   ],
   "license": "MIT",
   "funding": {
     "type": "individual",
     "url": "https://ohif.org/donate"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/peterhedmansurlien/cornerstone3d-angular/issues"
+  },
+  "homepage": "https://github.com/peterhedmansurlien/cornerstone3d-angular#readme",
+  "author": "@cornerstonejs (previously Chris Hafey)",
+  "keywords": [
+    "cornerstone3d"
+  ]
 }

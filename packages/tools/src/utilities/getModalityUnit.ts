@@ -1,4 +1,4 @@
-import { metaData } from '@cornerstonejs/core';
+import { metaData } from 'cornerstone3d-angular-core';
 
 type ModalityUnitOptions = {
   isPreScaled: boolean;

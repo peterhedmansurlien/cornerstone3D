@@ -4,7 +4,7 @@ import {
   getWebWorkerManager,
   eventTarget,
   triggerEvent,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
 import { WorkerTypes } from '../../../enums';
 import { pointToString } from '../../../utilities';

@@ -1,4 +1,4 @@
-import type { Types } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 type Point = Types.Point2 | Types.Point3;
 

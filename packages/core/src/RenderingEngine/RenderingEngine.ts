@@ -95,7 +95,7 @@ class RenderingEngine implements IRenderingEngine {
 
     if (!isCornerstoneInitialized()) {
       throw new Error(
-        '@cornerstone3d-angular/core is not initialized, run init() first'
+        'cornerstone3d-angular-core is not initialized, run init() first'
       );
     }
 

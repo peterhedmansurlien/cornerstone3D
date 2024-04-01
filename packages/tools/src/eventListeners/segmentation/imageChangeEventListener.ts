@@ -8,7 +8,7 @@ import {
   cache,
   utilities,
   Types,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { getToolGroupForViewport } from '../../store/ToolGroupManager';
 import Representations from '../../enums/SegmentationRepresentations';
 import * as SegmentationState from '../../stateManagement/segmentation/segmentationState';

@@ -7,7 +7,7 @@ import vtkXMLPolyDataReader from '@kitware/vtk.js/IO/XML/XMLPolyDataReader';
 import vtkPolyData from '@kitware/vtk.js/Common/DataModel/PolyData';
 
 import { BaseTool } from './base';
-import { getRenderingEngines } from '@cornerstonejs/core';
+import { getRenderingEngines } from 'cornerstone3d-angular-core';
 import { filterViewportsWithToolEnabled } from '../utilities/viewportFilters';
 
 const OverlayMarkerType = {

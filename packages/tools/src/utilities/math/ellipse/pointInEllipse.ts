@@ -1,4 +1,4 @@
-import type { Types } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
 interface Inverts {
   invXRadiusSq?: number;
   invYRadiusSq?: number;

@@ -1,4 +1,4 @@
-import { getRenderingEngines } from '@cornerstonejs/core';
+import { getRenderingEngines } from 'cornerstone3d-angular-core';
 import { state } from '../index';
 import { IToolGroup } from '../../types';
 

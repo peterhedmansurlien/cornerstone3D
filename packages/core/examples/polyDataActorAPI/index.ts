@@ -3,9 +3,9 @@ import {
   Types,
   Enums,
   CONSTANTS,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import { setTitleAndDescription } from '../../../../utils/demo/helpers';
-import { init as csRenderInit } from '@cornerstone3d-angular/core';
+import { init as csRenderInit } from 'cornerstone3d-angular-core';
 import { init as csToolsInit } from '@cornerstonejs/tools';
 
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';

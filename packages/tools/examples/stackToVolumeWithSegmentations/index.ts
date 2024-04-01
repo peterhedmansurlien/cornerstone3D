@@ -4,8 +4,8 @@ import {
   Enums,
   getRenderingEngine,
   utilities as csUtils,
-} from '@cornerstonejs/core';
-import * as cornerstone from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import * as cornerstone from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

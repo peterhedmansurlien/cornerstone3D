@@ -1,4 +1,4 @@
-import { getEnabledElement } from '@cornerstonejs/core';
+import { getEnabledElement } from 'cornerstone3d-angular-core';
 import { state } from '../../store';
 import { ToolModes } from '../../enums';
 import { EventTypes } from '../../types';

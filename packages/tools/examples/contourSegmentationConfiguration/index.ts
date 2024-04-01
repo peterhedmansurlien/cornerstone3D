@@ -1,5 +1,5 @@
-import { Enums, RenderingEngine } from '@cornerstonejs/core';
-import * as cornerstone from '@cornerstonejs/core';
+import { Enums, RenderingEngine } from 'cornerstone3d-angular-core';
+import * as cornerstone from 'cornerstone3d-angular-core';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 import {
   addManipulationBindings,

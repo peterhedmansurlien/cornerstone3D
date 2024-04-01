@@ -1,4 +1,4 @@
-import { getWebWorkerManager } from '@cornerstonejs/core';
+import { getWebWorkerManager } from 'cornerstone3d-angular-core';
 
 let registered = false;
 

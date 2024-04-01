@@ -1,4 +1,4 @@
-import { cache as cornerstoneCache } from '@cornerstonejs/core';
+import { cache as cornerstoneCache } from 'cornerstone3d-angular-core';
 import vtkImageMarchingSquares from '@kitware/vtk.js/Filters/General/ImageMarchingSquares';
 import vtkDataArray from '@kitware/vtk.js/Common/Core/DataArray';
 import vtkImageData from '@kitware/vtk.js/Common/DataModel/ImageData';

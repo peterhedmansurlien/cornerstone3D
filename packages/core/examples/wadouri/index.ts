@@ -3,14 +3,14 @@ import {
   Types,
   Enums,
   getRenderingEngine,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import {
   addButtonToToolbar,
   setTitleAndDescription,
   ctVoiRange,
 } from '../../../../utils/demo/helpers';
 import initCornerstoneDICOMImageLoader from '../../../../utils/demo/helpers/initCornerstoneDICOMImageLoader';
-import { init as csRenderInit } from '@cornerstone3d-angular/core';
+import { init as csRenderInit } from 'cornerstone3d-angular-core';
 
 // This is for debugging purposes
 console.warn(

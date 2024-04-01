@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Check if two axis-aligned bounding boxes intersect

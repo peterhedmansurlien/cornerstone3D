@@ -1,4 +1,4 @@
-import type { Types } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Find the closest point to the target point

@@ -1,4 +1,4 @@
-import type { Types } from '@cornerstone3d-angular/core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Given a pixel array, rescale the pixel values using the rescale slope and

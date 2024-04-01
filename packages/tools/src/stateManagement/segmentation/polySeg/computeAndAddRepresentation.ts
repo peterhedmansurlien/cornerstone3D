@@ -1,4 +1,4 @@
-import { eventTarget } from '@cornerstonejs/core';
+import { eventTarget } from 'cornerstone3d-angular-core';
 import { Events, SegmentationRepresentations } from '../../../enums';
 import addRepresentationData from '../addRepresentationData';
 import { triggerSegmentationModified } from '../triggerSegmentationEvents';

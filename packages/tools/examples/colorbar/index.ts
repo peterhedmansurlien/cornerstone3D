@@ -4,7 +4,7 @@ import {
   Types,
   Enums,
   getRenderingEngine,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { utilities as cstUtils } from '@cornerstonejs/tools';
 import {
   initDemo,

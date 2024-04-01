@@ -6,7 +6,7 @@ import {
   Enums,
   utilities,
   getEnabledElement,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { Colorbar } from './Colorbar';
 import type { ViewportColorbarProps, ColorbarVOIRange } from './types';
 import { getVOIMultipliers } from '../../getVOIMultipliers';
@@ -174,7 +174,7 @@ class ViewportColorbar extends Colorbar {
   private _viewportColormapModifiedCallback = (
     evt: Types.EventTypes.ColormapModifiedEvent
   ) => {
-    const { viewportId, colormap, volumeId  } = evt.detail;
+    const { viewportId, colormap, volumeId } = evt.detail;
     const { viewport } = this.enabledElement;
 
     if (viewportId !== viewport.id || volumeId !== this._volumeId) {

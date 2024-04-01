@@ -1,7 +1,7 @@
 import { PlanarFreehandContourSegmentationTool } from '../../../../../tools';
 import { addAnnotation } from '../../../../annotation/annotationState';
 import { RawContourData } from '../contourComputationStrategies';
-import { utilities, type Types } from '@cornerstonejs/core';
+import { utilities, type Types } from 'cornerstone3d-angular-core';
 
 /**
  * Creates and adds contour segmentations from a clipped surface.

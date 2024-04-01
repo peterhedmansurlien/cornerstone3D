@@ -10,7 +10,7 @@ import {
   Enums,
   triggerEvent,
   eventTarget,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import {
   Annotation,
   ContourAnnotation,

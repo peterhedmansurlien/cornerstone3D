@@ -1,4 +1,4 @@
-import { eventTarget, Enums } from '@cornerstonejs/core';
+import { eventTarget, Enums } from 'cornerstone3d-angular-core';
 import { getAnnotationManager } from './stateManagement/annotation/annotationState';
 import { getDefaultSegmentationStateManager } from './stateManagement/segmentation/segmentationState';
 import { Events as TOOLS_EVENTS } from './enums';

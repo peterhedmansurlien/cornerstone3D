@@ -1,4 +1,4 @@
-import { Types } from '@cornerstone3d-angular/core';
+import { Types } from 'cornerstone3d-angular-core';
 import { LoadRequestFunction } from './LoadRequestFunction';
 
 export interface DICOMLoaderImageOptions {

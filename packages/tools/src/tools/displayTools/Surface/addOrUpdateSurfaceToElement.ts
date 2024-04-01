@@ -1,5 +1,5 @@
-import { getEnabledElement } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { getEnabledElement } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import vtkMapper from '@kitware/vtk.js/Rendering/Core/Mapper';
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 import vtkPolyData from '@kitware/vtk.js/Common/DataModel/PolyData';

@@ -176,16 +176,11 @@
     "url": "https://github.com/peterhedmansurlien/cornerstone3d-angular/issues"
   },
   "homepage": "https://github.com/peterhedmansurlien/cornerstone3d-angular#readme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "babel.config.js",
   "keywords": [
     "cornerstone3d"
   ],
-  "author": "Peter Hedman Surlien",
-  "license": "ISC",
-  "dependencies": {
-    "@cornerstone3d-angular/core": "^1.67.1",
-    "@cornerstone3d-angular/dicom-image-loader": "^1.67.1",
-    "@cornerstone3d-angular/tools": "^1.67.1"
-  }
+  "author": "@cornerstonejs (previously Chris Hafey)",
+  "license": "MIT"
 }

@@ -5,7 +5,7 @@ import {
   Enums,
   utilities as csUtils,
   CONSTANTS,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 // TODO -> A load of the utilities in cornerstone tools are just about the volumes and should be in core instead
 import {
   initDemo,

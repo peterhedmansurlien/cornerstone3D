@@ -10,12 +10,12 @@ import {
   utilities as csUtils,
   utilities,
   ProgressiveRetrieveImages,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import type {
   Types,
   IImagesLoader,
   ImageLoadListener,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 
 import { scaleArray, autoLoad } from './helpers';
 

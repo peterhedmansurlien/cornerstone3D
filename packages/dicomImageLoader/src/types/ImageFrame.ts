@@ -1,4 +1,4 @@
-import { Enums } from '@cornerstone3d-angular/core';
+import { Enums } from 'cornerstone3d-angular-core';
 import PixelDataTypedArray from './PixelDataTypedArray';
 
 interface ImageFrame {

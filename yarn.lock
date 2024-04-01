@@ -1405,72 +1405,13 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@cornerstone3d-angular/adapters@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/adapters":
-  version "1.67.1"
-  resolved "file:packages/adapters"
-  dependencies:
-    "@babel/runtime-corejs2" "^7.17.8"
-    "@cornerstonejs/tools" "^1.67.1"
-    buffer "^6.0.3"
-    dcmjs "^0.29.8"
-    gl-matrix "^3.4.3"
-    lodash.clonedeep "^4.5.0"
-    ndarray "^1.0.19"
-
-"@cornerstone3d-angular/core@^1.67.1", "@cornerstone3d-angular/core@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/core":
-  version "1.67.1"
-  resolved "file:packages/core"
-  dependencies:
-    "@kitware/vtk.js" "29.7.0"
-    comlink "^4.4.1"
-    detect-gpu "^5.0.22"
-    gl-matrix "^3.4.3"
-    lodash.clonedeep "4.5.0"
-
-"@cornerstone3d-angular/dicom-image-loader@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/dicomImageLoader":
-  version "1.67.1"
-  resolved "file:packages/dicomImageLoader"
-  dependencies:
-    "@cornerstone3d-angular/core" "^1.67.1"
-    "@cornerstonejs/codec-charls" "^1.2.3"
-    "@cornerstonejs/codec-libjpeg-turbo-8bit" "^1.2.2"
-    "@cornerstonejs/codec-openjpeg" "^1.2.2"
-    "@cornerstonejs/codec-openjph" "^2.4.5"
-    dicom-parser "^1.8.9"
-    pako "^2.0.4"
-    uuid "^9.0.0"
-
-"@cornerstone3d-angular/nifti-volume-loader@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/nifti-volume-loader":
-  version "1.67.1"
-  resolved "file:packages/nifti-volume-loader"
-  dependencies:
-    "@cornerstone3d-angular/core" "^1.67.1"
-    nifti-reader-js "^0.6.6"
-
-"@cornerstone3d-angular/streaming-image-volume-loader@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/streaming-image-volume-loader":
-  version "1.67.1"
-  resolved "file:packages/streaming-image-volume-loader"
-  dependencies:
-    "@cornerstone3d-angular/core" "^1.67.1"
-    comlink "^4.4.1"
-
-"@cornerstone3d-angular/tools@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/tools":
-  version "1.67.1"
-  resolved "file:packages/tools"
-  dependencies:
-    "@cornerstonejs/core" "^1.67.1"
-    "@icr/polyseg-wasm" "0.4.0"
-    "@types/offscreencanvas" "2019.7.3"
-    comlink "^4.4.1"
-    lodash.clonedeep "4.5.0"
-    lodash.get "^4.4.2"
-
 "@cornerstonejs/adapters@^1.67.1":
-  version "1.67.1"
-  resolved "file:packages/adapters"
+  version "1.68.0"
+  resolved "https://registry.npmjs.org/@cornerstonejs/adapters/-/adapters-1.68.0.tgz"
+  integrity sha512-ZaKRHP2Tmf5T936GNK2p/bDLmgjowLWiF91LqdOFlyCT9CUevS16HXhTQbldx1kC/MFXtuJaBbrw9m1KBwlskw==
   dependencies:
     "@babel/runtime-corejs2" "^7.17.8"
-    "@cornerstonejs/tools" "^1.67.1"
+    "@cornerstonejs/tools" "^1.68.0"
     buffer "^6.0.3"
     dcmjs "^0.29.8"
     gl-matrix "^3.4.3"
@@ -1502,9 +1443,10 @@
   resolved "https://registry.npmjs.org/@cornerstonejs/codec-openjph/-/codec-openjph-2.4.5.tgz"
   integrity sha512-MZCUy8VG0VG5Nl1l58+g+kH3LujAzLYTfJqkwpWI2gjSrGXnP6lgwyy4GmPRZWVoS40/B1LDNALK905cNWm+sg==
 
-"@cornerstonejs/core@^1.67.1":
-  version "1.67.1"
-  resolved "file:packages/core"
+"@cornerstonejs/core@^1.67.1", "@cornerstonejs/core@^1.68.0":
+  version "1.68.0"
+  resolved "https://registry.npmjs.org/@cornerstonejs/core/-/core-1.68.0.tgz"
+  integrity sha512-zKrPwRnTrGj2xblECZkPk/h4M8ex+UtbkhuZx6MM7EwEQ1lp5cAfldvFVkbz/nZ9FAEuYTdUW/g9AM/cTeDYPw==
   dependencies:
     "@kitware/vtk.js" "29.7.0"
     comlink "^4.4.1"
@@ -1513,14 +1455,15 @@
     lodash.clonedeep "4.5.0"
 
 "@cornerstonejs/dicom-image-loader@^1.67.1":
-  version "1.67.1"
-  resolved "file:packages/dicomImageLoader"
+  version "1.68.0"
+  resolved "https://registry.npmjs.org/@cornerstonejs/dicom-image-loader/-/dicom-image-loader-1.68.0.tgz"
+  integrity sha512-peGwbTSxtOPMjYP8jnoiK/+n+tajsSOm8FOHc8FNg3/A/s/rGMbYeibVPWgaqjq6NoHOnY7YcYcvWXQi5z4GBQ==
   dependencies:
-    "@cornerstone3d-angular/core" "^1.67.1"
     "@cornerstonejs/codec-charls" "^1.2.3"
     "@cornerstonejs/codec-libjpeg-turbo-8bit" "^1.2.2"
     "@cornerstonejs/codec-openjpeg" "^1.2.2"
     "@cornerstonejs/codec-openjph" "^2.4.5"
+    "@cornerstonejs/core" "^1.68.0"
     dicom-parser "^1.8.9"
     pako "^2.0.4"
     uuid "^9.0.0"
@@ -1529,21 +1472,33 @@
   version "1.67.1"
   resolved "file:packages/nifti-volume-loader"
   dependencies:
-    "@cornerstone3d-angular/core" "^1.67.1"
+    cornerstone3d-angular-core "^1.0.0"
     nifti-reader-js "^0.6.6"
 
 "@cornerstonejs/streaming-image-volume-loader@^1.67.1":
   version "1.67.1"
   resolved "file:packages/streaming-image-volume-loader"
   dependencies:
-    "@cornerstone3d-angular/core" "^1.67.1"
     comlink "^4.4.1"
+    cornerstone3d-angular-core "^1.0.0"
 
-"@cornerstonejs/tools@^1.67.1":
-  version "1.67.1"
+"@cornerstonejs/tools@^1.0.0":
+  version "1.0.0"
   resolved "file:packages/tools"
   dependencies:
-    "@cornerstonejs/core" "^1.67.1"
+    "@icr/polyseg-wasm" "0.4.0"
+    "@types/offscreencanvas" "2019.7.3"
+    comlink "^4.4.1"
+    cornerstone3d-angular-core "^1.0.0"
+    lodash.clonedeep "4.5.0"
+    lodash.get "^4.4.2"
+
+"@cornerstonejs/tools@^1.67.1", "@cornerstonejs/tools@^1.68.0":
+  version "1.68.0"
+  resolved "https://registry.npmjs.org/@cornerstonejs/tools/-/tools-1.68.0.tgz"
+  integrity sha512-GmnVnFB9dinEJIZ8tABrZ1P6KijBo6eiun7tnjToLdcu9QwT5iT5g8VkW5im3Fm0YhhE7Jn2wQgSwv190E3DYg==
+  dependencies:
+    "@cornerstonejs/core" "^1.68.0"
     "@icr/polyseg-wasm" "0.4.0"
     "@types/offscreencanvas" "2019.7.3"
     comlink "^4.4.1"
@@ -7694,6 +7649,66 @@ core-util-is@~1.0.0, core-util-is@1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
   integrity sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==
+
+"cornerstone3d-angular-adapters@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/adapters":
+  version "1.0.0"
+  resolved "file:packages/adapters"
+  dependencies:
+    "@babel/runtime-corejs2" "^7.17.8"
+    "@cornerstonejs/tools" "^1.0.0"
+    buffer "^6.0.3"
+    dcmjs "^0.29.8"
+    gl-matrix "^3.4.3"
+    lodash.clonedeep "^4.5.0"
+    ndarray "^1.0.19"
+
+cornerstone3d-angular-core@^1.0.0, "cornerstone3d-angular-core@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/core":
+  version "1.0.0"
+  resolved "file:packages/core"
+  dependencies:
+    "@kitware/vtk.js" "29.7.0"
+    comlink "^4.4.1"
+    detect-gpu "^5.0.22"
+    gl-matrix "^3.4.3"
+    lodash.clonedeep "4.5.0"
+
+"cornerstone3d-angular-dicom-image-loader@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/dicomImageLoader":
+  version "1.0.0"
+  resolved "file:packages/dicomImageLoader"
+  dependencies:
+    "@cornerstonejs/codec-charls" "^1.2.3"
+    "@cornerstonejs/codec-libjpeg-turbo-8bit" "^1.2.2"
+    "@cornerstonejs/codec-openjpeg" "^1.2.2"
+    "@cornerstonejs/codec-openjph" "^2.4.5"
+    cornerstone3d-angular-core "^1.0.0"
+    dicom-parser "^1.8.9"
+    pako "^2.0.4"
+    uuid "^9.0.0"
+
+"cornerstone3d-angular-nifti-volume-loader@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/nifti-volume-loader":
+  version "1.67.1"
+  resolved "file:packages/nifti-volume-loader"
+  dependencies:
+    cornerstone3d-angular-core "^1.0.0"
+    nifti-reader-js "^0.6.6"
+
+"cornerstone3d-angular-streaming-image-volume-loader@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/streaming-image-volume-loader":
+  version "1.67.1"
+  resolved "file:packages/streaming-image-volume-loader"
+  dependencies:
+    comlink "^4.4.1"
+    cornerstone3d-angular-core "^1.0.0"
+
+"cornerstone3d-angular-tools@file:/Users/peter.hedmansurlien/Documents/repos/samverkantjansten/cornerstone3D/packages/tools":
+  version "1.0.0"
+  resolved "file:packages/tools"
+  dependencies:
+    "@icr/polyseg-wasm" "0.4.0"
+    "@types/offscreencanvas" "2019.7.3"
+    comlink "^4.4.1"
+    cornerstone3d-angular-core "^1.0.0"
+    lodash.clonedeep "4.5.0"
+    lodash.get "^4.4.2"
 
 cors@~2.8.5:
   version "2.8.5"

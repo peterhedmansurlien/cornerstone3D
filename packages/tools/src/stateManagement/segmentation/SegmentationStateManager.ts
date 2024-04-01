@@ -1,6 +1,6 @@
 import cloneDeep from 'lodash.clonedeep';
-import type { Types } from '@cornerstonejs/core';
-import { utilities as csUtils } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
+import { utilities as csUtils } from 'cornerstone3d-angular-core';
 
 import { SegmentationRepresentations } from '../../enums';
 import getDefaultContourConfig from '../../tools/displayTools/Contour/contourConfig';

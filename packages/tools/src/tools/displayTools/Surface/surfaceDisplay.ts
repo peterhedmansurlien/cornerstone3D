@@ -3,7 +3,7 @@ import {
   getEnabledElementByIds,
   Types,
   VolumeViewport3D,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
 import * as SegmentationState from '../../../stateManagement/segmentation/segmentationState';
 import Representations from '../../../enums/SegmentationRepresentations';

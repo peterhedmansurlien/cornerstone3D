@@ -1,5 +1,9 @@
-import { VolumeViewport, volumeLoader, utilities } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import {
+  VolumeViewport,
+  volumeLoader,
+  utilities,
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { getUniqueSegmentIndices } from '../../../../utilities/segmentation';
 import { getSegmentation } from '../../segmentationState';
 import {

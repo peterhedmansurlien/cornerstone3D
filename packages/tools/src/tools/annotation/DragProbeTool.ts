@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { getEnabledElement } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { getEnabledElement } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 import {
   drawHandles as drawHandlesSvg,

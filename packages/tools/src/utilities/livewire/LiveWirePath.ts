@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 /**
  * Path that contains points and control points to draw a path
  * used by the livewire tool

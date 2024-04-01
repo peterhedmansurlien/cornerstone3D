@@ -1,4 +1,4 @@
-import { Enums, Types, geometryLoader } from '@cornerstonejs/core';
+import { Enums, Types, geometryLoader } from 'cornerstone3d-angular-core';
 import { getColorForSegmentIndex } from '../../config/segmentationColor';
 import {
   findSegmentationRepresentationByUID,

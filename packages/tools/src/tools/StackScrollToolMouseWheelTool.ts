@@ -1,4 +1,4 @@
-import { getEnabledElement, utilities } from '@cornerstonejs/core';
+import { getEnabledElement, utilities } from 'cornerstone3d-angular-core';
 import { BaseTool } from './base';
 import { MouseWheelEventType } from '../types/EventTypes';
 import scroll from '../utilities/scroll';

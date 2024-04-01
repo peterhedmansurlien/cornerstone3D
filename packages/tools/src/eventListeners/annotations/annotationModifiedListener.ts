@@ -1,4 +1,4 @@
-import { getRenderingEngine } from '@cornerstonejs/core';
+import { getRenderingEngine } from 'cornerstone3d-angular-core';
 import triggerAnnotationRenderForViewportIds from '../../utilities/triggerAnnotationRenderForViewportIds';
 
 /**

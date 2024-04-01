@@ -1,4 +1,4 @@
-import { utilities } from '@cornerstonejs/core';
+import { utilities } from 'cornerstone3d-angular-core';
 import type { PublicToolProps } from '../../types';
 import type { AnnotationRenderContext } from '../../types';
 import { PlanarFreehandContourSegmentationAnnotation } from '../../types/ToolSpecificAnnotationTypes';

@@ -4,7 +4,7 @@ import {
   addImageSlicesToViewports,
   Types,
   Enums,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import {
   LabelmapSegmentationData,
   LabelmapSegmentationDataStack,

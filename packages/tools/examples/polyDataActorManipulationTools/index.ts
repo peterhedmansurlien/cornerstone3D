@@ -1,6 +1,6 @@
-import { RenderingEngine, Types, Enums } from '@cornerstonejs/core';
+import { RenderingEngine, Types, Enums } from 'cornerstone3d-angular-core';
 import { setTitleAndDescription } from '../../../../utils/demo/helpers';
-import { init as csRenderInit } from '@cornerstonejs/core';
+import { init as csRenderInit } from 'cornerstone3d-angular-core';
 import { init as csToolsInit } from '@cornerstonejs/tools';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 

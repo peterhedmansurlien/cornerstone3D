@@ -1,7 +1,10 @@
-import { utilities as csUtils, getEnabledElement } from '@cornerstonejs/core';
+import {
+  utilities as csUtils,
+  getEnabledElement,
+} from 'cornerstone3d-angular-core';
 import { vec3, vec2 } from 'gl-matrix';
 
-import type { Types } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
 import type {
   PublicToolProps,
   ToolProps,

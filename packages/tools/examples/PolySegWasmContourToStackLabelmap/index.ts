@@ -1,4 +1,4 @@
-import { RenderingEngine, Enums } from '@cornerstonejs/core';
+import { RenderingEngine, Enums } from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

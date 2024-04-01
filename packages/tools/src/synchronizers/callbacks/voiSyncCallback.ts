@@ -3,7 +3,7 @@ import {
   getRenderingEngine,
   StackViewport,
   Types,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
 /**
  * Synchronizer callback to synchronize the voi of volumeActors of identical volumes

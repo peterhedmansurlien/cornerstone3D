@@ -3,8 +3,8 @@ import {
   getEnabledElement,
   eventTarget,
   utilities as csUtils,
-} from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import {
   SegmentationRepresentations,
   ToolModes,

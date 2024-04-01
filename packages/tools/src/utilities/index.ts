@@ -1,4 +1,4 @@
-import { utilities } from '@cornerstonejs/core';
+import { utilities } from 'cornerstone3d-angular-core';
 
 import {
   getAnnotationNearPoint,
@@ -52,7 +52,7 @@ import * as contourSegmentation from './contourSegmentation';
 const roundNumber = utilities.roundNumber;
 
 // Events
-import { triggerEvent } from '@cornerstonejs/core';
+import { triggerEvent } from 'cornerstone3d-angular-core';
 
 export {
   math,

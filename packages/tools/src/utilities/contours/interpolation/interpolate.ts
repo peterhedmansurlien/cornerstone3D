@@ -1,5 +1,5 @@
-import { triggerEvent, utilities } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { triggerEvent, utilities } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { vec3 } from 'gl-matrix';
 
 import createPolylineToolData from './createPolylineToolData';

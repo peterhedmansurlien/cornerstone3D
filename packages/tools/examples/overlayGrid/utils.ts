@@ -1,4 +1,4 @@
-import { metaData, utilities } from '@cornerstonejs/core';
+import { metaData, utilities } from 'cornerstone3d-angular-core';
 import { vec3 } from 'gl-matrix';
 
 /**

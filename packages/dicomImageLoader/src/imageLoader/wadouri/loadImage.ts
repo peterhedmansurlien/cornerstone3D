@@ -1,5 +1,5 @@
 import { DataSet } from 'dicom-parser';
-import { Types } from '@cornerstone3d-angular/core';
+import { Types } from 'cornerstone3d-angular-core';
 import createImage from '../createImage';
 import { xhrRequest } from '../internal/index';
 import dataSetCacheManager from './dataSetCacheManager';

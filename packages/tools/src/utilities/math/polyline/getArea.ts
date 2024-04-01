@@ -1,4 +1,4 @@
-import type { Types } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Calculates the area of an array of `Point2` points using the shoelace algorithm.

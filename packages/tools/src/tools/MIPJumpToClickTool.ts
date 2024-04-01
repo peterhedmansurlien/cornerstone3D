@@ -1,6 +1,6 @@
 import { BaseTool } from './base';
-import { getEnabledElement, VolumeViewport } from '@cornerstonejs/core';
-import { type Types, utilities } from '@cornerstonejs/core';
+import { getEnabledElement, VolumeViewport } from 'cornerstone3d-angular-core';
+import { type Types, utilities } from 'cornerstone3d-angular-core';
 import { getPointInLineOfSightWithCriteria } from '../utilities/planar';
 import jumpToWorld from '../utilities/viewport/jumpToWorld';
 import { PublicToolProps, ToolProps } from '../types';

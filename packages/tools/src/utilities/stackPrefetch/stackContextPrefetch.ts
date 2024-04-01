@@ -5,7 +5,7 @@ import {
   imageLoadPoolManager,
   cache,
   getConfiguration as getCoreConfiguration,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { addToolState, getToolState } from './state';
 import {
   getStackData,

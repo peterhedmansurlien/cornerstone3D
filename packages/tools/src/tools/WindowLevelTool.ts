@@ -5,7 +5,7 @@ import {
   cache,
   Types,
   utilities,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { EventTypes } from '../types';
 
 // Todo: should move to configuration

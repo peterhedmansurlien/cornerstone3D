@@ -2,7 +2,7 @@ import {
   cornerstoneStreamingImageVolumeLoader,
   StreamingImageVolume,
 } from '../src';
-import * as cornerstone from '@cornerstone3d-angular/core';
+import * as cornerstone from 'cornerstone3d-angular-core';
 import * as testUtils from '../../../utils/test/testUtils';
 
 const { cache, metaData, imageLoader, volumeLoader } = cornerstone;

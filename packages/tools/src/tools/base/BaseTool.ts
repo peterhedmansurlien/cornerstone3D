@@ -1,5 +1,5 @@
-import { utilities, BaseVolumeViewport } from '@cornerstonejs/core';
-import { Types } from '@cornerstonejs/core';
+import { utilities, BaseVolumeViewport } from 'cornerstone3d-angular-core';
+import { Types } from 'cornerstone3d-angular-core';
 import ToolModes from '../../enums/ToolModes';
 import StrategyCallbacks from '../../enums/StrategyCallbacks';
 import { InteractionTypes, ToolProps, PublicToolProps } from '../../types';

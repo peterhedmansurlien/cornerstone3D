@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 import { vec2 } from 'gl-matrix';
 import { polyline } from '../../../utilities/math';
 import { EventTypes } from '../../../types';

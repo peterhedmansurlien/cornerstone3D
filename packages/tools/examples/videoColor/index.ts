@@ -1,4 +1,4 @@
-import { RenderingEngine, Types, Enums } from '@cornerstonejs/core';
+import { RenderingEngine, Types, Enums } from 'cornerstone3d-angular-core';
 import {
   addButtonToToolbar,
   addDropdownToToolbar,

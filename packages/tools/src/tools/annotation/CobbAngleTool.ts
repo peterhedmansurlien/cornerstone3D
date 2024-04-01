@@ -1,7 +1,7 @@
 import { vec3 } from 'gl-matrix';
 import { Events } from '../../enums';
-import { getEnabledElement } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { getEnabledElement } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 import { AnnotationTool } from '../base';
 import throttle from '../../utilities/throttle';

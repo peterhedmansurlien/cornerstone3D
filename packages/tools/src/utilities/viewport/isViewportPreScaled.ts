@@ -3,7 +3,7 @@ import {
   StackViewport,
   Types,
   BaseVolumeViewport,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
 function isViewportPreScaled(
   viewport: Types.IStackViewport | Types.IVolumeViewport,

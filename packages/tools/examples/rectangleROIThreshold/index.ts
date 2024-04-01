@@ -5,7 +5,7 @@ import {
   Enums,
   setVolumesForViewports,
   volumeLoader,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

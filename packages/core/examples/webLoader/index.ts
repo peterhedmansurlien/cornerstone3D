@@ -7,7 +7,7 @@ import {
   Types,
   setVolumesForViewports,
   volumeLoader,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import {
   initDemo,
   setTitleAndDescription,

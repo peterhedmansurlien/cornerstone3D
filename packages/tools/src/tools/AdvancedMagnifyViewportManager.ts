@@ -4,8 +4,8 @@ import {
   Enums,
   getRenderingEngine,
   CONSTANTS,
-} from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { AnnotationRemovedEventType } from '../types/EventTypes';
 import { Events as cstEvents } from '../enums';
 import {

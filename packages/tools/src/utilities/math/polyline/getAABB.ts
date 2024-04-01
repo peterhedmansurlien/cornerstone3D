@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 
 /**
  * Calculates the axis-aligned bounding box (AABB) of a polyline.

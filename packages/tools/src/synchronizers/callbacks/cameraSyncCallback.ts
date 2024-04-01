@@ -1,4 +1,4 @@
-import { getRenderingEngine, Types } from '@cornerstonejs/core';
+import { getRenderingEngine, Types } from 'cornerstone3d-angular-core';
 import { Synchronizer } from '../../store';
 
 /**

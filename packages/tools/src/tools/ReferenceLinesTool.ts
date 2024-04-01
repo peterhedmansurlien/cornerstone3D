@@ -3,8 +3,11 @@ import {
   getRenderingEngines,
   CONSTANTS,
   utilities as csUtils,
-} from '@cornerstonejs/core';
-import { type Types, getEnabledElementByViewportId } from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import {
+  type Types,
+  getEnabledElementByViewportId,
+} from 'cornerstone3d-angular-core';
 
 import { addAnnotation } from '../stateManagement/annotation/annotationState';
 

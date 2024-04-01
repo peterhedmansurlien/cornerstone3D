@@ -3,7 +3,7 @@ import {
   Enums,
   CONSTANTS,
   imageLoader,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

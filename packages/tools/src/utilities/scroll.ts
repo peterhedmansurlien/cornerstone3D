@@ -7,7 +7,7 @@ import {
   utilities as csUtils,
   getEnabledElement,
   VideoViewport,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { ScrollOptions, EventTypes } from '../types';
 
 /**

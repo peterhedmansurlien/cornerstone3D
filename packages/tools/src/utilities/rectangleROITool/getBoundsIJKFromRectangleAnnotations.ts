@@ -1,5 +1,5 @@
-import { utilities as csUtils } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { utilities as csUtils } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { getBoundingBoxAroundShapeIJK } from '../boundingBox/getBoundingBoxAroundShape';
 import extend2DBoundingBoxInViewAxis from '../boundingBox/extend2DBoundingBoxInViewAxis';
 

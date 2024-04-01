@@ -1,5 +1,5 @@
-import type { Types } from '@cornerstonejs/core';
-import { CONSTANTS } from '@cornerstonejs/core';
+import type { Types } from 'cornerstone3d-angular-core';
+import { CONSTANTS } from 'cornerstone3d-angular-core';
 
 const { EPSILON } = CONSTANTS;
 

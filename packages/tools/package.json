@@ -1,16 +1,20 @@
 {
-  "name": "@cornerstone3d-angular/tools",
-  "version": "1.67.1",
+  "name": "cornerstone3d-angular-tools",
+  "version": "1.0.0",
   "description": "Cornerstone3D Tools",
   "main": "src/index.ts",
   "types": "dist/types/index.d.ts",
   "module": "dist/esm/index.js",
-  "repository": "https://github.com/cornerstonejs/cornerstone3D",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterhedmansurlien/cornerstone3d-angular.git"
+  },
   "files": [
     "dist/",
     "src/"
   ],
   "directories": {
+    "example": "examples",
     "test": "test"
   },
   "sideEffects": false,
@@ -29,7 +33,7 @@
     "webpack:watch": "webpack --mode development --progress --watch  --config ./.webpack/webpack.dev.js"
   },
   "dependencies": {
-    "@cornerstonejs/core": "^1.67.1",
+    "cornerstone3d-angular-core": "^1.0.0",
     "@icr/polyseg-wasm": "0.4.0",
     "@types/offscreencanvas": "2019.7.3",
     "comlink": "^4.4.1",
@@ -49,14 +53,19 @@
     "gl-matrix": "^3.4.3"
   },
   "contributors": [
-    {
-      "name": "Cornerstone.js Contributors",
-      "url": "https://github.com/orgs/cornerstonejs/people"
-    }
+    "Cornerstone.js Contributors (https://github.com/orgs/cornerstonejs/people)"
   ],
   "license": "MIT",
   "funding": {
     "type": "individual",
     "url": "https://ohif.org/donate"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/peterhedmansurlien/cornerstone3d-angular/issues"
+  },
+  "homepage": "https://github.com/peterhedmansurlien/cornerstone3d-angular#readme",
+  "keywords": [
+    "cornerstone"
+  ],
+  "author": "@cornerstonejs (previously Chris Hafey)"
 }

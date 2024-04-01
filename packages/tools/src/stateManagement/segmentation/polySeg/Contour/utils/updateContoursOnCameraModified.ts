@@ -1,4 +1,4 @@
-import { utilities, type Types, Enums } from '@cornerstonejs/core';
+import { utilities, type Types, Enums } from 'cornerstone3d-angular-core';
 import { extractContourData } from './extractContourData';
 import { clipAndCacheSurfacesForViewport } from '../../../helpers/clipAndCacheSurfacesForViewport';
 import { createAndAddContourSegmentationsFromClippedSurfaces } from './createAndAddContourSegmentationsFromClippedSurfaces';

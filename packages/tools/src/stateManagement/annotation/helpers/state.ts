@@ -3,7 +3,7 @@ import {
   triggerEvent,
   eventTarget,
   getEnabledElementByIds,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { Events, ChangeTypes } from '../../../enums';
 import { Annotation } from '../../../types/AnnotationTypes';
 import { getToolGroupsWithToolName } from '../../../store/ToolGroupManager';

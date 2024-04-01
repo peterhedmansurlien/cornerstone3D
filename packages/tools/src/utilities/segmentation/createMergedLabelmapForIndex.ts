@@ -1,5 +1,5 @@
-import { Types } from '@cornerstonejs/core';
-import { volumeLoader, utilities as csUtils } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
+import { volumeLoader, utilities as csUtils } from 'cornerstone3d-angular-core';
 
 /**
  * Given a list of labelmaps (with the possibility of overlapping regions), and

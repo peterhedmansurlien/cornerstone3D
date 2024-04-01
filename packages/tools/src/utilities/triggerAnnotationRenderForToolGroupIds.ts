@@ -1,4 +1,4 @@
-import { getRenderingEngine, type Types } from '@cornerstonejs/core';
+import { getRenderingEngine, type Types } from 'cornerstone3d-angular-core';
 import triggerAnnotationRender from './triggerAnnotationRender';
 import { getToolGroup } from '../store/ToolGroupManager';
 

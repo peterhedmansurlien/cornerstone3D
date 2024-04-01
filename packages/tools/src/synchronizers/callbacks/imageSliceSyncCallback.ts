@@ -5,7 +5,7 @@ import {
   metaData,
   utilities,
   VolumeViewport,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { Synchronizer } from '../../store';
 import { jumpToSlice } from '../../utilities';
 import areViewportsCoplanar from './areViewportsCoplanar ';

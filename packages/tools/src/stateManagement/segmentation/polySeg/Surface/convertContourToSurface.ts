@@ -1,5 +1,10 @@
-import { Enums, Types, eventTarget, triggerEvent } from '@cornerstonejs/core';
-import { getWebWorkerManager } from '@cornerstonejs/core';
+import {
+  Enums,
+  Types,
+  eventTarget,
+  triggerEvent,
+} from 'cornerstone3d-angular-core';
+import { getWebWorkerManager } from 'cornerstone3d-angular-core';
 import { ContourSegmentationData } from '../../../../types';
 import { getAnnotation } from '../../../annotation/annotationState';
 import { WorkerTypes } from '../../../../enums';

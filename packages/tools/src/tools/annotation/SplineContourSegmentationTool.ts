@@ -1,4 +1,4 @@
-import { utilities } from '@cornerstonejs/core';
+import { utilities } from 'cornerstone3d-angular-core';
 import { PublicToolProps } from '../../types';
 import SplineROITool from './SplineROITool';
 

@@ -7,9 +7,9 @@ import {
   cache,
   BaseVolumeViewport,
   Enums,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 import CINE_EVENTS from './events';
 import { addToolState, getToolState, getToolStateByViewportId } from './state';
 import { CINETypes } from '../../types';

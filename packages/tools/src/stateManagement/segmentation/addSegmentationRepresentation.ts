@@ -1,5 +1,5 @@
-import { getRenderingEngine, utilities } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { getRenderingEngine, utilities } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import {
   SegmentationRepresentationConfig,
   RepresentationPublicInput,

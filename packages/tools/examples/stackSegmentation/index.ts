@@ -1,5 +1,9 @@
-import { Enums, RenderingEngine, imageLoader } from '@cornerstonejs/core';
-import * as cornerstone from '@cornerstonejs/core';
+import {
+  Enums,
+  RenderingEngine,
+  imageLoader,
+} from 'cornerstone3d-angular-core';
+import * as cornerstone from 'cornerstone3d-angular-core';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 import {
   createImageIdsAndCacheMetaData,

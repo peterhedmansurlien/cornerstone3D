@@ -3,7 +3,7 @@ import {
   VolumeViewport,
   Types,
   utilities as csUtils,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 
 import filterAnnotationsWithinSlice from './filterAnnotationsWithinSlice';
 import type { Annotations } from '../../types';

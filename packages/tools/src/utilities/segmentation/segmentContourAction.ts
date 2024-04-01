@@ -1,4 +1,4 @@
-import { getEnabledElement, type Types } from '@cornerstonejs/core';
+import { getEnabledElement, type Types } from 'cornerstone3d-angular-core';
 
 import type { Annotation } from '../../types/AnnotationTypes';
 import * as segmentation from '../../stateManagement/segmentation';

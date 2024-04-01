@@ -33,11 +33,11 @@ module.exports = (env, argv) => {
     },
     externals: [
       {
-        '@cornerstone3d-angular/core': {
+        'cornerstone3d-angular-core': {
           root: 'cornerstone3D',
-          commonjs: '@cornerstone3d-angular/core',
-          commonjs2: '@cornerstone3d-angular/core',
-          amd: '@cornerstone3d-angular/core',
+          commonjs: 'cornerstone3d-angular-core',
+          commonjs2: 'cornerstone3d-angular-core',
+          amd: 'cornerstone3d-angular-core',
         },
       },
     ],

@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 import * as mathPoint from '../point';
 import getLineSegmentIntersectionsIndexes from './getLineSegmentIntersectionsIndexes';
 import containsPoint from './containsPoint';

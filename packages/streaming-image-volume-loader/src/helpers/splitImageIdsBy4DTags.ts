@@ -1,4 +1,4 @@
-import { metaData } from '@cornerstone3d-angular/core';
+import { metaData } from 'cornerstone3d-angular-core';
 
 // TODO: Test remaining implemented tags
 // Supported 4D Tags

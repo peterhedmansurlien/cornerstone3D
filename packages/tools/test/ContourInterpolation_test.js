@@ -1,4 +1,4 @@
-import * as cornerstone3D from '@cornerstonejs/core';
+import * as cornerstone3D from 'cornerstone3d-angular-core';
 import {
   utilities as toolsUtilities,
   segmentation,

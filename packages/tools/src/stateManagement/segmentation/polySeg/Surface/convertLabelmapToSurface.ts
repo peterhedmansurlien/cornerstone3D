@@ -4,8 +4,8 @@ import {
   eventTarget,
   triggerEvent,
   Enums,
-} from '@cornerstonejs/core';
-import { getWebWorkerManager } from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
+import { getWebWorkerManager } from 'cornerstone3d-angular-core';
 import {
   LabelmapSegmentationData,
   LabelmapSegmentationDataStack,

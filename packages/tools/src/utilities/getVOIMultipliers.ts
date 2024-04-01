@@ -1,4 +1,4 @@
-import { Types, utilities as csUtils } from '@cornerstonejs/core';
+import { Types, utilities as csUtils } from 'cornerstone3d-angular-core';
 import { isViewportPreScaled } from './viewport';
 
 const DEFAULT_MULTIPLIER = 4;

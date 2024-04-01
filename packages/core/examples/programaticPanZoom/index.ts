@@ -3,7 +3,7 @@ import {
   RenderingEngine,
   Types,
   Enums,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

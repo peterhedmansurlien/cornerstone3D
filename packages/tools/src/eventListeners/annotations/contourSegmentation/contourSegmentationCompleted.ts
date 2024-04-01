@@ -2,7 +2,7 @@ import {
   getEnabledElement,
   utilities as csUtils,
   Types,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { ContourSegmentationAnnotation } from '../../../types/ContourSegmentationAnnotation';
 import getViewportsForAnnotation from '../../../utilities/getViewportsForAnnotation';
 import {

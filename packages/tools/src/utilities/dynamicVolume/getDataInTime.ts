@@ -1,4 +1,4 @@
-import { utilities, cache, Types } from '@cornerstonejs/core';
+import { utilities, cache, Types } from 'cornerstone3d-angular-core';
 import { getVoxelOverlap } from '../segmentation/utilities';
 import pointInShapeCallback from '../pointInShapeCallback';
 

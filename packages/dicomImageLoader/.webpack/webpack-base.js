@@ -29,7 +29,7 @@ module.exports = {
   },
   devtool: 'source-map',
   externals: [
-    '@cornerstone3d-angular/core',
+    'cornerstone3d-angular-core',
     'uuid',
     {
       'dicom-parser': {

@@ -1,4 +1,4 @@
-import { Types } from '@cornerstonejs/core';
+import { Types } from 'cornerstone3d-angular-core';
 
 type FloodFillResult = {
   flooded: Types.Point2[] | Types.Point3[];

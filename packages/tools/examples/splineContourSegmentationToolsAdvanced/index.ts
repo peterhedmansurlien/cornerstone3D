@@ -4,7 +4,7 @@ import {
   setVolumesForViewports,
   Types,
   volumeLoader,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import * as cornerstoneTools from '@cornerstonejs/tools';
 import {
   addButtonToToolbar,

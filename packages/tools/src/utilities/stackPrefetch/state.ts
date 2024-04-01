@@ -1,4 +1,4 @@
-import { getEnabledElement } from '@cornerstonejs/core';
+import { getEnabledElement } from 'cornerstone3d-angular-core';
 
 const state: Record<number, any> = {};
 

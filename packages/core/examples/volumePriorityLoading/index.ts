@@ -5,7 +5,7 @@ import {
   volumeLoader,
   imageLoadPoolManager,
   CONSTANTS,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

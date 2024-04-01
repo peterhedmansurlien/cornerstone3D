@@ -34,11 +34,11 @@ module.exports = (env, argv) => {
     },
     externals: [
       {
-        '@cornerstonejs/core': {
+        'cornerstone3d-angular-core': {
           root: 'cornerstone3D',
-          commonjs: '@cornerstonejs/core',
-          commonjs2: '@cornerstonejs/core',
-          amd: '@cornerstonejs/core',
+          commonjs: 'cornerstone3d-angular-core',
+          commonjs2: 'cornerstone3d-angular-core',
+          amd: 'cornerstone3d-angular-core',
         },
         '@cornerstonejs/streaming-image-volume-loader': {
           root: 'cornerstoneStreamingImageVolumeLoader',

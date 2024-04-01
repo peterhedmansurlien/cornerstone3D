@@ -1,5 +1,5 @@
-import { cache, utilities } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { cache, utilities } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 import { isVolumeSegmentation } from './stackVolumeCheck';
 import { LabelmapToolOperationDataStack } from '../../../../types';
 

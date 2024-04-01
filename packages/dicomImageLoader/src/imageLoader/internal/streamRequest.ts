@@ -1,4 +1,4 @@
-import { Types, utilities } from '@cornerstone3d-angular/core';
+import { Types, utilities } from 'cornerstone3d-angular-core';
 import { getOptions } from './options';
 import { LoaderXhrRequestError } from '../../types';
 import extractMultipart from '../wadors/extractMultipart';

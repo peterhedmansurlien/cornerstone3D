@@ -5,7 +5,7 @@ import {
   eventTarget,
   getWebWorkerManager,
   triggerEvent,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import { SurfaceSegmentationData } from '../../../../types/SurfaceTypes';
 import { WorkerTypes } from '../../../../enums';
 

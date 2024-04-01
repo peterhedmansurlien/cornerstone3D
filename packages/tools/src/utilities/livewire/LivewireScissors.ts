@@ -1,4 +1,4 @@
-import { Types, utilities } from '@cornerstonejs/core';
+import { Types, utilities } from 'cornerstone3d-angular-core';
 
 import { BucketQueue } from '../BucketQueue';
 

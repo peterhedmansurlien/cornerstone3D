@@ -2,7 +2,7 @@ import {
   eventTarget,
   triggerEvent,
   type Types,
-} from '@cornerstone3d-angular/core';
+} from 'cornerstone3d-angular-core';
 import BaseStreamingImageVolume from './BaseStreamingImageVolume';
 import { Events as StreamingEvents } from './enums';
 

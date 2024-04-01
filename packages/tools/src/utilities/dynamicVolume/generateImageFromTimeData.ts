@@ -1,4 +1,4 @@
-import { Enums, Types } from '@cornerstonejs/core';
+import { Enums, Types } from 'cornerstone3d-angular-core';
 
 /**
  * Gets the scalar data for a series of time frames from a 4D volume, returns an

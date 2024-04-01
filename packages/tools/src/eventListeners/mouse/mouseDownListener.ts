@@ -1,5 +1,5 @@
-import { getEnabledElement, triggerEvent } from '@cornerstonejs/core';
-import type { Types } from '@cornerstonejs/core';
+import { getEnabledElement, triggerEvent } from 'cornerstone3d-angular-core';
+import type { Types } from 'cornerstone3d-angular-core';
 
 import Events from '../../enums/Events';
 import { MouseBindings } from '../../enums/ToolBindings';

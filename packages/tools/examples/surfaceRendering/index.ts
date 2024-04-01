@@ -8,7 +8,7 @@ import {
   geometryLoader,
   CONSTANTS,
   eventTarget,
-} from '@cornerstonejs/core';
+} from 'cornerstone3d-angular-core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

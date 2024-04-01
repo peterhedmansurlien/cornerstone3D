@@ -1,4 +1,4 @@
-import { Enums, utilities } from '@cornerstonejs/core';
+import { Enums, utilities } from 'cornerstone3d-angular-core';
 
 const { CalibrationTypes } = Enums;
 const PIXEL_UNITS = 'px';
@@ -176,10 +176,15 @@ const getCalibratedLengthUnitsAndScale = (image, handles) => {
   }
 
   // everything except REGION/Uncalibratted
-  const types = [CalibrationTypes.ERMF, CalibrationTypes.USER, CalibrationTypes.ERROR, CalibrationTypes.PROJECTION];
+  const types = [
+    CalibrationTypes.ERMF,
+    CalibrationTypes.USER,
+    CalibrationTypes.ERROR,
+    CalibrationTypes.PROJECTION,
+  ];
 
   if (types.includes(calibration?.type)) {
-      calibrationType = calibration.type;
+    calibrationType = calibration.type;
   }
 
   return {
