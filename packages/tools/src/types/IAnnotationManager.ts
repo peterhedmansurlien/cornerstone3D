@@ -50,7 +50,7 @@ interface IAnnotationManager {
    * @param annotationUID - The UID of the annotation to retrieve.
    * @returns The annotation with the specified UID.
    */
-  getAnnotation: (annotationUID: string) => Annotation;
+  getAnnotation: (annotationUID: string) => Annotation | undefined;
 
   /**
    * Removes the annotation with the specified UID.

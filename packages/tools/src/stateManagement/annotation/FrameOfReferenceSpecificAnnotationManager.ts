@@ -171,6 +171,8 @@ class FrameOfReferenceSpecificAnnotationManager implements IAnnotationManager {
         }
       }
     }
+
+    return undefined;
   };
 
   /**

@@ -53,7 +53,7 @@ export default interface IVideoViewport extends IViewport {
   /**
    * Gets the current image id, including frame selction or frameless.
    */
-  getCurrentImageId(): string;
+  getCurrentImageId(): string | undefined;
 
   /**
    * Gets the current frame, 1 based

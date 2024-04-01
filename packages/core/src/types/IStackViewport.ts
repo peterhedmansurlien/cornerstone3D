@@ -24,7 +24,7 @@ export default interface IStackViewport extends IViewport {
    * Returns the frame of reference UID, if the image doesn't have imagePlaneModule
    * metadata, it returns undefined, otherwise, frameOfReferenceUID is returned.
    */
-  getFrameOfReferenceUID: () => string;
+  getFrameOfReferenceUID: () => string | undefined;
 
   /**
    * Update the default properties of the viewport and add properties by imageId if specified
@@ -74,7 +74,7 @@ export default interface IStackViewport extends IViewport {
   /**
    * Returns the index of the imageId being renderer
    */
-  getCurrentImageIdIndex: () => number;
+  getCurrentImageIdIndex: () => number | undefined;
   /**
    * Returns the list of image Ids for the current viewport
    */
@@ -90,7 +90,7 @@ export default interface IStackViewport extends IViewport {
   /**
    * Returns the currently rendered imageId
    */
-  getCurrentImageId: () => string;
+  getCurrentImageId: () => string | undefined;
   /**
    * Add Image Slices actors to the viewport
    */

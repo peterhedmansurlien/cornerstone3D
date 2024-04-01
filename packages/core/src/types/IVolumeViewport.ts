@@ -12,7 +12,7 @@ import { VolumeViewportProperties } from '.';
  */
 export default interface IVolumeViewport extends IViewport {
   useCPURendering: boolean;
-  getFrameOfReferenceUID: () => string;
+  getFrameOfReferenceUID: () => string | undefined;
 
   /**
    * Retrieve the viewport default properties
@@ -45,7 +45,7 @@ export default interface IVolumeViewport extends IViewport {
    * is looking at the volume in the direction of acquisition (imageIds).
    * If so, it uses the origin and focalPoint to calculate the slice index.
    */
-  getCurrentImageIdIndex: () => number;
+  getCurrentImageIdIndex: () => number | undefined;
 
   /**
    * Checks if the viewport has a volume actor with the given volumeId
@@ -64,7 +64,7 @@ export default interface IVolumeViewport extends IViewport {
    * If so, it uses the origin and focalPoint to find which imageId is
    * currently being viewed.
    */
-  getCurrentImageId: () => string;
+  getCurrentImageId: () => string | undefined;
   /**
    * Sets the default properties for the viewport. If no volumeId is provided
    * it applies the properties to the default volume actor (first volume)

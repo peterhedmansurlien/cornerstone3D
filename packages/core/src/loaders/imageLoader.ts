@@ -195,21 +195,58 @@ export function loadAndCacheImage(
   imageId: string,
   options: ImageLoaderOptions = { priority: 0, requestType: 'prefetch' }
 ): Promise<IImage> {
-  if (imageId === undefined) {
-    throw new Error(
-      'loadAndCacheImage: parameter imageId must not be undefined'
-    );
-  }
-  const imageLoadObject = loadImageFromCacheOrVolume(imageId, options);
+  /* eslint-disable */
+  return new Promise<IImage>(async (resolve, reject) => {
+    try {
+      if (imageId === undefined) {
+        throw new Error('parameter imageId must not be undefined');
+      }
+      const imageLoadObject = loadImageFromCacheOrVolume(imageId, options);
 
-  // if not inside cache, store it
-  if (!cache.getImageLoadObject(imageId)) {
-    cache.putImageLoadObject(imageId, imageLoadObject).catch((err) => {
-      console.warn(err);
-    });
-  }
+      // if not inside cache, store it
+      if (!cache.getImageLoadObject(imageId)) {
+        await cache
+          .putImageLoadObject(imageId, imageLoadObject)
+          .catch((err) => {
+            console.warn(err);
 
-  return imageLoadObject.promise;
+            let errorMessage = err.error?.message;
+            if (!errorMessage) errorMessage = err.error.toString();
+
+            throw new Error(errorMessage);
+          });
+      }
+
+      const image = await imageLoadObject.promise;
+
+      _triggerLoadImageSuccess(image, imageId);
+
+      resolve(image);
+    } catch (error: any) {
+      _triggerLoadImageError(error, imageId);
+      reject(error);
+    }
+  });
+  /* eslint-enable */
+}
+
+function _triggerLoadImageSuccess(image: any, imageId: string) {
+  const eventDetail = { image, imageId };
+  const elem = document.getElementById(imageId);
+  if (elem) {
+    triggerEvent(elem, 'csEventChange', eventDetail);
+  }
+}
+
+function _triggerLoadImageError(error: any, imageId: string) {
+  const eventDetail = {
+    error,
+    imageId,
+  };
+  const elem = document.getElementById(imageId);
+  if (elem) {
+    triggerEvent(elem, 'csEventChange', eventDetail);
+  }
 }
 
 /**

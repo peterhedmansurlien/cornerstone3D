@@ -142,7 +142,7 @@ interface IViewport {
   /** get the rotation either from the camera provided or the viewport if not provided */
   getRotation: () => number;
   /** frameOfReferenceUID the viewport's default actor is rendering */
-  getFrameOfReferenceUID: () => string;
+  getFrameOfReferenceUID: () => string | undefined;
   /** method to convert canvas to world coordinates */
   canvasToWorld: (canvasPos: Point2) => Point3;
   /** method to convert world to canvas coordinates */
@@ -206,7 +206,7 @@ interface IViewport {
   /** Gets the number of slices in the current camera orientation */
   getNumberOfSlices(): number;
   /** Gets the current slice in the current camera orientation */
-  getCurrentImageIdIndex(): number;
+  getCurrentImageIdIndex(): number | undefined;
   /** Gets a referenced image url of some sort - could be a real image id, or could be a URL with parameters */
   getReferenceId(viewRefSpecifier?: ViewReferenceSpecifier): string;
   /**

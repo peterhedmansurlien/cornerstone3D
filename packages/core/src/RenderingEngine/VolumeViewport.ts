@@ -353,7 +353,7 @@ class VolumeViewport extends BaseVolumeViewport {
    *
    * @returns The slice index in the direction of the view
    */
-  public getCurrentImageIdIndex = (volumeId?: string): number => {
+  public getCurrentImageIdIndex = (volumeId?: string): number | undefined => {
     const { viewPlaneNormal, focalPoint } = this.getCamera();
 
     const imageData = this.getImageData(volumeId);

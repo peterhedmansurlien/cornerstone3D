@@ -130,7 +130,7 @@ class Viewport implements IViewport {
   }
 
   getRotation: () => number;
-  getFrameOfReferenceUID: () => string;
+  getFrameOfReferenceUID: () => string | undefined;
   canvasToWorld: (canvasPos: Point2) => Point3;
   worldToCanvas: (worldPos: Point3) => Point2;
   customRenderViewportToCanvas: () => unknown;
@@ -910,7 +910,7 @@ class Viewport implements IViewport {
     return result;
   }
 
-  public getCurrentImageIdIndex(): number {
+  public getCurrentImageIdIndex(): number | undefined {
     throw new Error('Not implemented');
   }
 

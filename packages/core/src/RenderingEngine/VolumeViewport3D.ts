@@ -42,8 +42,8 @@ class VolumeViewport3D extends BaseVolumeViewport {
     return undefined;
   };
 
-  getCurrentImageId = (): string => {
-    return null;
+  getCurrentImageId = (): string | undefined => {
+    return undefined;
   };
 
   setSlabThickness(

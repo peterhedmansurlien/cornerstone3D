@@ -420,7 +420,7 @@ class VideoViewport extends Viewport implements IVideoViewport {
    * @param frameRange - the minimum to maximum (inclusive) frames to play over
    * @returns
    */
-  public setFrameRange(frameRange: number[]) {
+  public setFrameRange(frameRange?: number[]) {
     if (!frameRange) {
       this.frameRange = [1, this.numberOfFrames];
       return;
@@ -680,7 +680,7 @@ class VideoViewport extends Viewport implements IVideoViewport {
    *
    * @returns an imageID for video
    */
-  public getCurrentImageId() {
+  public getCurrentImageId(): string | undefined {
     const current = this.imageId.replace(
       '/frames/1',
       this.isPlaying
@@ -782,7 +782,7 @@ class VideoViewport extends Viewport implements IVideoViewport {
     return 1 + this.getCurrentImageIdIndex();
   }
 
-  public getCurrentImageIdIndex() {
+  public getCurrentImageIdIndex(): number | undefined {
     return Math.round(this.videoElement.currentTime * this.fps);
   }
 
@@ -827,7 +827,7 @@ class VideoViewport extends Viewport implements IVideoViewport {
     );
   };
 
-  public getFrameOfReferenceUID = (): string => {
+  public getFrameOfReferenceUID = (): string | undefined => {
     // The video itself is the frame of reference.
     return this.videoElement.src;
   };

@@ -1,5 +1,10 @@
-import type { Annotation } from '../types';
+import { Annotation } from '../types/AnnotationTypes';
 import getViewportsForAnnotation from './getViewportsForAnnotation';
+
+import {
+  IStackViewport,
+  IVolumeViewport,
+} from '@cornerstonejs/core/dist/types/types';
 
 /**
  * Finds a matching viewport in terms of the orientation of the annotation data
@@ -10,7 +15,9 @@ import getViewportsForAnnotation from './getViewportsForAnnotation';
  * @param annotation - to find a viewport that it could display in
  * @returns The viewport to display in
  */
-export default function getViewportForAnnotation(annotation: Annotation) {
+export default function getViewportForAnnotation(
+  annotation: Annotation
+): IVolumeViewport | IStackViewport {
   const viewports = getViewportsForAnnotation(annotation);
 
   return viewports.length ? viewports[0] : undefined;

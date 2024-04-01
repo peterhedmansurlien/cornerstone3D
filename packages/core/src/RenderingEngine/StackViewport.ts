@@ -1703,6 +1703,8 @@ class StackViewport extends Viewport implements IStackViewport, IImagesLoader {
       currentImageIdIndex: currentImageIdIndex,
     };
 
+    this.element;
+
     triggerEvent(eventTarget, Events.STACK_VIEWPORT_NEW_STACK, eventDetail);
 
     return imageId;
@@ -2824,7 +2826,7 @@ class StackViewport extends Viewport implements IStackViewport, IImagesLoader {
    *
    * @returns currently shown imageId index
    */
-  public getCurrentImageIdIndex = (): number => {
+  public getCurrentImageIdIndex = (): number | undefined => {
     return this.currentImageIdIndex;
   };
 
@@ -2911,7 +2913,7 @@ class StackViewport extends Viewport implements IStackViewport, IImagesLoader {
    * Returns the currently rendered imageId
    * @returns string for imageId
    */
-  public getCurrentImageId = (): string => {
+  public getCurrentImageId = (): string | undefined => {
     return this.imageIds[this.currentImageIdIndex];
   };
 

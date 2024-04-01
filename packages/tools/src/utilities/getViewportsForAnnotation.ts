@@ -1,5 +1,10 @@
 import { getEnabledElements, utilities as csUtils } from '@cornerstonejs/core';
-import type { Annotation } from '../types';
+import { Annotation } from '../types';
+
+import {
+  IStackViewport,
+  IVolumeViewport,
+} from '@cornerstonejs/core/dist/types/types';
 
 const { isEqual } = csUtils;
 
@@ -12,7 +17,9 @@ const { isEqual } = csUtils;
  * @param annotation - Annotation to find the viewports that it could display in
  * @returns All viewports to display in
  */
-export default function getViewportsForAnnotation(annotation: Annotation) {
+export default function getViewportsForAnnotation(
+  annotation: Annotation
+): (IVolumeViewport | IStackViewport)[] {
   const { metadata } = annotation;
 
   return getEnabledElements()
