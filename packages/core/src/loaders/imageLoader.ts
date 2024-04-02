@@ -232,7 +232,17 @@ export function loadAndCacheImage(
 
 function _triggerLoadImageSuccess(image: any, imageId: string) {
   const eventDetail = { image, imageId };
-  const elem = document.getElementById(imageId);
+
+  const generalSeriesModule = metaData.get('generalSeriesModule', imageId);
+  const studyInstanceUid = generalSeriesModule?.studyInstanceUID;
+  const seriesInstanceUid = generalSeriesModule?.seriesInstanceUID;
+
+  const elem = document.getElementById(
+    studyInstanceUid + '-' + seriesInstanceUid
+  );
+
+  //console.log('_triggerLoadImageSuccess', elem);
+
   if (elem) {
     triggerEvent(elem, 'csEventChange', eventDetail);
   }
@@ -243,7 +253,17 @@ function _triggerLoadImageError(error: any, imageId: string) {
     error,
     imageId,
   };
-  const elem = document.getElementById(imageId);
+
+  const generalSeriesModule = metaData.get('generalSeriesModule', imageId);
+  const studyInstanceUid = generalSeriesModule?.studyInstanceUID;
+  const seriesInstanceUid = generalSeriesModule?.seriesInstanceUID;
+
+  const elem = document.getElementById(
+    studyInstanceUid + '-' + seriesInstanceUid
+  );
+
+  //console.log('_triggerLoadImageError', elem);
+
   if (elem) {
     triggerEvent(elem, 'csEventChange', eventDetail);
   }
